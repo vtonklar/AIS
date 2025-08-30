@@ -224,7 +224,7 @@
                 <div class="text-center mb-12">
                     <h2 class="text-3xl md:text-4xl font-bold section-title">ผลลัพธ์ที่คาดหวังและตัวชี้วัดความสำเร็จ</h2>
                     <p class="mt-4 text-lg text-gray-600 max-w-3xl mx-auto">
-                        เป้าหมายของเราคือการสร้างผลกระทบเชิงบวกที่วัดผลได้จริง ทั้งในด้านทักษะ รายได้ และความปลอดภัยในโลกดิจิทัลของผู้สูงอายุ นี่คือเป้าหมายสำหรับโครงการนำร่องใน 90 วัน
+                        เป้าหมายของเราคือการสร้างผลกระทบเชิงบวกที่วัดผลได้จริง ทั้งในด้านทักษะ รายได้ และความปลอดภัยในโลกดิจิทัลของผู้สูงอายุ นี่คือเป้าหมายสำหรับโครงการ
                     </p>
                 </div>
 
@@ -236,8 +236,8 @@
                     </div>
                     <div class="kpi-card p-6 rounded-lg shadow-md text-center">
                         <div id="kpi-jobs" class="text-5xl font-bold text-lime-600">0</div>
-                        <p class="text-xl font-semibold text-gray-700 mt-2">การจับคู่งานสำเร็จ</p>
-                        <p class="text-gray-500">(เป้าหมาย ≥125 งาน)</p>
+                        <p class="text-xl font-semibold text-gray-700 mt-2">ระดับความพึงพอใจของผู้เข้าร่วม</p>
+                        <p class="text-gray-500">(เป้าหมาย ≥8.0 งาน)</p>
                     </div>
                     <div class="kpi-card p-6 rounded-lg shadow-md text-center">
                         <div class="flex justify-center items-baseline">
@@ -380,7 +380,7 @@
                         const kpiIncome = document.getElementById('kpi-income');
                         
                         animateValue(kpiUsers, 0, 400, 2000);
-                        animateValue(kpiJobs, 0, 125, 2000);
+                        animateValue(kpiJobs, 0, 8.0, 2000);
                         animateValue(kpiIncome, 0, 1000, 2000);
                         
                         observer.unobserve(entry.target);
@@ -396,6 +396,7 @@
     </script>
 </body>
 </html>
+
 
 
 
